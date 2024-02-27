@@ -4,3 +4,5 @@ __pycache__
 command.md
 .vscode
 djchat/db.sqlite3
+djchat/server/migrations/
+djchat/account/migrations/
