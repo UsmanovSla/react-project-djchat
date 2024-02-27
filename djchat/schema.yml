@@ -1,0 +1,7 @@
+openapi: 3.0.3
+info:
+  title: React DJCHAT API
+  version: 1.0.0
+  description: React DJCHAT API
+paths: {}
+components: {}
