@@ -9,7 +9,7 @@ class ChannelSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
-class ServerSerialzer(serializers.ModelSerializer):
+class ServerSerializer(serializers.ModelSerializer):
     num_members = serializers.SerializerMethodField()
     channel_server = ChannelSerializer(many=True)
 
